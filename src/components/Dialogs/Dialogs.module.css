@@ -1,0 +1,36 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+    color: white;
+}
+
+.dialogsItems .active {
+    color: gold;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.messages .message {
+    color: white;
+}
+.btn
+{
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 255, 200);
+    border-radius: 5px;
+    background: rgb(0, 255, 213);
+}
+.btn:hover
+{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+
+
