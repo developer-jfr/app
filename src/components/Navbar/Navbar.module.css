@@ -1,32 +1,14 @@
 .nav {
     grid-area: n;
-    background-color: rgb(255, 255, 255);
+    background-color: burlywood;
     padding: 20px;
-    color: black;
 }
 
 .item a {
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
 }
 
 .item a.activeLink {
-    color: rgb(0, 247, 255);
-}
-.log
-{
-
-width: 20px;
-position: relative;
-top: 0;
-left: -10px;
-
-}
-.com
-{
-    display: flex;
-}
-.one:hover
-{
-    opacity: 0.7;
+    color: gold;
 }
